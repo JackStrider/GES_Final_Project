@@ -52,8 +52,11 @@ public class InventoryMenu : MonoBehaviour
     // Update is called once per frame
     void Update () 
 	{
-        HandleInput();       
-	}
+        HandleInput();
+
+        // It seems if you don't do this every frame, the cursor is not locked properly...
+        UpdateCursor();
+    }
 
     private void HandleInput()
     {
@@ -66,8 +69,7 @@ public class InventoryMenu : MonoBehaviour
             else
             {
                 ShowMenu();
-            }
-            UpdateCursor();
+            }            
             UpdateFirstPersonController();
         }
     }

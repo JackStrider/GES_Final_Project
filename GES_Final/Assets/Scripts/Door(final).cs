@@ -5,7 +5,7 @@ using UnityEngine;
 public class Door : MonoBehaviour, IActivatable
 {
     [SerializeField]
-    private string nameText;
+    string nameText;
 
     [Tooltip("If you set a key, the door will be locked.")]
     [SerializeField]

@@ -42,8 +42,6 @@ public class ActivateLookedAtObjects : MonoBehaviour
             lookedAtObjectText.text = "";
     }
 
-    //add in pit that will update text when looking at an object 
-
     private void UpdateObjectLookedAt()
     {
         RaycastHit hit;
