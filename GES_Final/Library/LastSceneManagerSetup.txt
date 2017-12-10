@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Main_Level.unity
+- path: E:/Work/2017 Fall/OOP/GES-FA17-02-3D-Project/Assets/Scenes/demo scene.unity
   isLoaded: 1
   isActive: 1
